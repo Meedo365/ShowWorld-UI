@@ -1,6 +1,6 @@
 import React, {useState, useRef} from 'react'
 import Form from 'react-bootstrap/Form'
-import Button from "react-bootstrap/button"
+// import Button from "react-bootstrap/button"
 import { Row, Col } from 'react-bootstrap';
 
 export default function SignUp() {
@@ -112,7 +112,8 @@ export default function SignUp() {
             If you do not have an account, <b onClick={handleDisplaySU} style={{cursor:"pointer", color:"white"}}>sign up</b> here
             </Form.Text>
       </Form.Group>
-      <Button style={{backgroundColor:"Teal", border:"none"}}className="signUpBtn"  type="submit">Submit</Button>
+//       <Button style={{backgroundColor:"Teal", border:"none"}}className="signUpBtn"  type="submit">Submit</Button>
+            <button style={{ backgroundColor: "Teal", border: "none" }} className="signUpBtn" type="submit">Submit</button>
     </Form>
     </div>
     
@@ -214,7 +215,8 @@ export default function SignUp() {
          feedbackType="invalid"
        />
      </Form.Group>
-     <Button style={{backgroundColor:"Teal", border:"none"}}className="signUpBtn"  type="submit">Submit</Button>
+//      <Button style={{backgroundColor:"Teal", border:"none"}}className="signUpBtn"  type="submit">Submit</Button>
+      <button style={{ backgroundColor: "Teal", border: "none" }} className="signUpBtn" type="submit">Submit</button>
    </Form>
    </div>
 
