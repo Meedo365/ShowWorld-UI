@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 // import {Link} from "react-router-dom";
 import ChatImg from "../Assets/chatter.png"
 import Form from 'react-bootstrap/Form'
-import Button from "react-bootstrap/button"
+// import Button from "react-bootstrap/button"
 import { Row, Col } from 'react-bootstrap';
 
 function Chat(props) {
@@ -130,7 +130,8 @@ function Chat(props) {
             </Form.Group>
             <br />
 
-            <Button style={{ backgroundColor: "red", border: "none" }} className="signUpBtn" type="submit">Submit</Button>
+//             <Button style={{ backgroundColor: "red", border: "none" }} className="signUpBtn" type="submit">Submit</Button>
+               <button style={{ backgroundColor: "red", border: "none" }} className="signUpBtn" type="submit" s>submit</button>
           </Form>
         </div>
 
