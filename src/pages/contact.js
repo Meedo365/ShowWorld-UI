@@ -7,7 +7,7 @@ import Partners from "../components/Partners";
 import ConCover from "../Assets/contactCover.jpg"
 import ChatImg from "../Assets/chatter.png"
 import Form from 'react-bootstrap/Form'
-import Button from "react-bootstrap/button"
+// import Button from "react-bootstrap/button"
 import { Row, Col } from 'react-bootstrap';
                                                                                                                                         
 function Contacting(){
@@ -147,7 +147,9 @@ function Contacting(){
                             </Form.Group>
                             <br/>
                         
-                        <Button style={{backgroundColor:"maroon", border:"none"}}className="signUpBtn"  type="submit">Submit</Button>
+//                         <Button style={{backgroundColor:"maroon", border:"none"}}className="signUpBtn"  type="submit">Submit</Button>
+                              
+                      <button style={{ backgroundColor: "maroon", border: "none" }} className="signUpBtn" type="submit" s>submit</button>
                         </Form>
                    </div>
         
